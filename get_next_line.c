@@ -6,13 +6,16 @@
 /*   By: yabuhuss <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 21:00:54 by yabuhuss          #+#    #+#             */
-/*   Updated: 2026/10/30 15:56:45 by yabuhuss         ###   ########.fr       */
+/*   Updated: 2026/11/01 18:48:11 by yabuhuss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-char *get_next_line(int fd)
+static char	*read_to_search(int fd, char *stash)
 {
-        
+}
+
+char	*get_next_line(int fd)
+{
 }

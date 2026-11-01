@@ -6,15 +6,14 @@
 /*   By: yabuhuss <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 21:45:02 by yabuhuss          #+#    #+#             */
-/*   Updated: 2026/10/30 14:56:17 by yabuhuss         ###   ########.fr       */
+/*   Updated: 2026/11/01 18:40:56 by yabuhuss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "get_next_line.h"
 
-int main()
+int	main(void)
 {
-    printf("%s", str_sub(NULL, 0, 2));
-    printf("%c", '\n');
+	printf("%s", str_sub(NULL, 0, 2));
+	printf("%c", '\n');
 }
