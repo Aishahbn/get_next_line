@@ -6,7 +6,7 @@
 /*   By: yabuhuss <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 22:13:59 by yabuhuss          #+#    #+#             */
-/*   Updated: 2026/11/05 22:14:00 by yabuhuss         ###   ########.fr       */
+/*   Updated: 2026/11/09 22:02:41 by yabuhuss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,10 @@
 # define GET_NEXT_LINE_BONUS_H
 
 # include <stdlib.h>
-# include <unistd.h>
-# include <stdio.h>
+#include <unistd.h>
 
 # ifndef MAX_FD
-#  define MAX_FD 1024
+#  define MAX_FD 1027
 # endif
 
 # ifndef BUFFER_SIZE

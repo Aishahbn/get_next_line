@@ -155,7 +155,9 @@ to know which fd it belongs to.
 ### Use of AI
 
 AI (Claude) was used as a learning and review tool, not as a replacement for
-writing the project:
+writing the project. AI also helped me write this README: it was drafted with
+AI assistance from my code and the subject requirements, and I then reviewed,
+corrected and approved the final text myself.
 
 - **Explaining concepts**: what a static variable is, and how to adapt the
   design to handle several file descriptors in the bonus.
@@ -169,8 +171,9 @@ writing the project:
   adapted them into my files for the mandatory and bonus parts.
 - **Testing**: running my files with sanitizers and different buffer sizes
   and fd cases to check the behaviour.
-- **Documentation**: this README was drafted with AI help from my code and the
-  subject requirements.
+- **Documentation (README)**: AI helped me write this README file. It was
+  drafted with AI help from my code and the subject requirements, and I checked
+  that every statement matches what my code actually does.
 
 The core structure (stash, helper functions, and the bonus array) was written
 by me, and I reviewed and tested every change before submitting.
