@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabuhuss <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: abaninas <abaninas@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/29 21:01:12 by yabuhuss          #+#    #+#             */
-/*   Updated: 2026/11/09 22:02:54 by yabuhuss         ###   ########.fr       */
+/*   Created: 2026/11/19 15:06:18 by abaninas          #+#    #+#             */
+/*   Updated: 2026/11/19 15:09:41 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define GET_NEXT_LINE_H
 
 # include <stdlib.h>
-#include <unistd.h>
+# include <unistd.h>
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42

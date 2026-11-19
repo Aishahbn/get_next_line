@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabuhuss <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: abaninas <abaninas@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/29 21:00:54 by yabuhuss          #+#    #+#             */
-/*   Updated: 2026/11/05 22:14:27 by yabuhuss         ###   ########.fr       */
+/*   Created: 2026/11/19 15:06:28 by abaninas          #+#    #+#             */
+/*   Updated: 2026/11/19 15:09:15 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,9 +53,9 @@ static char	*free_fun(char *s1, char *s2)
 
 static char	*read_to_stash(int fd, char *stash)
 {
-	char	*buffer;
-	char	*tmp;
-	int		bytes_read;
+	char		*buffer;
+	char		*tmp;
+	ssize_t		bytes_read;
 
 	buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
 	if (!buffer)

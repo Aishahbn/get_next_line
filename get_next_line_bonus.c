@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabuhuss <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: abaninas <abaninas@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 22:14:09 by yabuhuss          #+#    #+#             */
-/*   Updated: 2026/11/05 22:14:10 by yabuhuss         ###   ########.fr       */
+/*   Updated: 2026/11/19 15:10:31 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,9 +53,9 @@ static char	*free_fun(char *s1, char *s2)
 
 static char	*read_to_stash(int fd, char *stash)
 {
-	char	*buffer;
-	char	*tmp;
-	int		bytes_read;
+	char		*buffer;
+	char		*tmp;
+	ssize_t		bytes_read;
 
 	buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
 	if (!buffer)
@@ -82,10 +82,10 @@ static char	*read_to_stash(int fd, char *stash)
 
 char	*get_next_line(int fd)
 {
-	static char	*stash[MAX_FD];
+	static char	*stash[1024];
 	char		*line;
 
-	if (fd < 0 || fd >= MAX_FD || BUFFER_SIZE <= 0)
+	if (fd < 0 || fd >= 1024 || BUFFER_SIZE <= 0)
 		return (NULL);
 	stash[fd] = read_to_stash(fd, stash[fd]);
 	if (!stash[fd])
