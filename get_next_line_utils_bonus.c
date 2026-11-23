@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabuhuss <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: abaninas <abaninas@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/05 22:14:03 by yabuhuss          #+#    #+#             */
-/*   Updated: 2026/11/05 22:14:04 by yabuhuss         ###   ########.fr       */
+/*   Created: 2026/11/22 11:24:53 by abaninas          #+#    #+#             */
+/*   Updated: 2026/11/22 11:24:56 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
